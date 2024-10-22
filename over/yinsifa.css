@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+  background-image: url(bj_05.jpg);
+  background-size: cover;
+}
+.banner{
+	background-image: url(40e2fcc29771646981f2b6f554bf2e28.png);
+	height: 570px;
+	background-position: center;
+}
+.banner .banner_img{
+	width: 1020px;
+	margin: auto;
+	position: relative;
+	top: 410px;
+}
+.dp{border: #0000FF,solid,1px;
+	font-size: 50px;
+}
+.nav{
+	height: 58px;
+	line-height: 58px;
+	font-family: "Hanalei Fill";
+}
+.nav_box{
+	width: 500px;
+	margin: auto;
+}
+.nav_box a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin:40px;
+	font-size: 21px;
+	text-shadow: 3px 3px 3px red,
+	7px 7px 7px aqua;
+}
+.nav_box a:hover{
+	color: blue;
+}
+.banner_img{
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+	width: 300px;
+	height: 120px;
+    gap: 3px; 
+    white-space: nowrap; 
+}
+.banner .banner_img img{
+	margin-right: 3px;
+	opacity: 0.9;
+	transition: transform 0.3s ease;
+}
+.banner .banner_img img:hover{
+	transform: scale(1.2);
+}
+.main{
+	width: 1010px;
+	height: 300px;
+	margin: auto;
+	margin-top: 50px;
+}
+.left{
+	width: 510px;
+	height: 250px;
+	border-right: 1px solid blue;
+	float: left;
+}
+.right{
+	width: 400px;
+	color: whitesmoke;
+	margin-left: 56px;
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+}
+.right .title{
+	font-size: 18px;
+	margin: 15px 0px;
+}
+.foot{
+	width: 1020px;
+	margin: auto;
+	border-top: 1px solid #ccc;
+}
+.foot p{
+	text-align: center;
+	color: whitesmoke;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.title{
+	font-family:"Encode Sans Condensed";
+}

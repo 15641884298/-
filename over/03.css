@@ -1,0 +1,73 @@
+body {
+	background-image:url(0474.jpg_wh300.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+}
+.container {
+    padding: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.content img {
+    height: 200px;
+    margin: 0 10px; 
+}
+.main-text {
+    flex: 1; 
+	background-color:rgba(147, 147, 147, 0.7);
+	color: #fff;
+	font-family: "Encode Sans Condensed";
+	font-size: 21px;
+}
+.foot{
+	width: 1020px;
+	margin: auto;
+	border-top: 1px solid #ccc;
+	
+	display: flex;
+	flex-direction: column;
+}
+.foot p{
+	text-align: center;
+	color: whitesmoke;
+	font-size: 12px;
+	margin-top: 10px;
+	
+	margin-top: auto;
+}
+
+.nav{
+	height: 58px;
+	line-height: 58px;
+	font-family: "Hanalei Fill";
+}
+.nav_box{
+	width: 500px;
+	margin: auto;
+}
+.nav_box a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin:40px;
+	font-size: 21px;
+	text-shadow: 3px 3px 3px red,
+	7px 7px 7px aqua;
+}
+.nav_box a:hover{
+	color: blue;
+}
